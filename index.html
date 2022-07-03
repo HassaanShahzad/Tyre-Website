@@ -6,56 +6,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="jquery.js">
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
-<style>
-
-#btn1 {
-    display: none;
-    cursor: pointer;
-}
-
-
-</style>
 <body>
-
     
+<div class="container">
+    <div class="col-md-12"><br><br></div>
+    <div class="col-md-12"><br><br></div>
+    <div class="col-md-12"><br><br></div>
+
+    <div class="col-md-4 col-md-offset-3 abc1" id="ab">
+<span class="glyphicon glyphicon-arrow-left abc2" id="abc"></span>
+
+<span class="glyphicon glyphicon-heart-empty abc3" id="a"></span>
+
+<span class="
+glyphicon glyphicon-option-vertical abc" id="abcd">
+<div class=" container">
+
+<ul id="abc1">
+    <a href="#" id="abc2">Contact us</a>
+<br>
+    <a href="#" id="abc2">Categouries</a>
+</ul>
+</div>
+</span>
+
+
+<img src="images/testimonial-1.jpg" class="img-circle abc4" alt="">
+
+<h2 class="abc5">Berely Little</h2>
+<p class="abc5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit esse temporibus sequi ipsum in earum, minima molestias repellat.</p>
+
+<button type="btn" class="abc6">Hire Me</button>
+
+<button type="button" class="abc7"><span class="
+    glyphicon glyphicon-globe"></span></button>
+
+<button type="button" class="abc8"><span class="
+    glyphicon glyphicon-btc"></span></button>
+
+<button type="button" class="abc9"><span class="
+    glyphicon glyphicon-asterisk "></span></button>
+
+    <button type="button" class="abc10">12.5k</button>
+    <button type="button" class="abc11">12.5k</button>
+    <button type="button" class="abc12">12.5k</button>
 
 
 
+    </div>
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-<button id="btn" class="btn btn-success">Dropdown</button>
-<ul id="btn1">
-    <li><a href="#">Contact us</a></li>
-    <li><a href="#">About us</a></li>
-    <li id="btn2"><a  href="#">Categories</a></li>
-  </ul>
-    
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript">
 
+        $(document).ready(function(){
+            $('#a').click(function(){
+                $('#ab').css("background","aqua")
 
-<script type="text/javascript">
-    $(document).ready(function(){
-        $('#sunday').click(function(){
-            $('body').css("background","aqua")
-            $('body').css("color","white")
-        })
+            })
+            $('#abc').click(function(){
+                $('#ab').css("background","rgb(50,54,80)")
 
-        $('#btn').click(function(){
-            $('#btn1').slideDown()
-            $('#btn1').show()
-            $('#btn').hide()
-        })
-        
-        $('#btn').click(function(){
-            $('#btn2').slideDown()
-            $('#btn2').show()
-        })
-        $('#btn2').click(function(){
-            $('#btn1').slideUp()
-            $('#btn').show()
-        })
-    });
-</script>
+            })
+            $('#abcd').click(function(){
+                
+                $('#abc1').toggle()
+            })
+        });
+    </script>
 </body>
 </html>
