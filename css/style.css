@@ -23,6 +23,7 @@
     position: relative;
     left: 85%;
     font-size: 20px;
+    z-index: -1;
 }
 .abc4 {
     position: relative;
@@ -89,7 +90,7 @@
     font-size: 17px;
     position: relative;
     top: 23%;
-    right: 10px;
+    right: 259px;
 }
 .abc11 {
     background-color:  rgb(50,54,80);
@@ -98,8 +99,8 @@
     font-weight: bold;
     font-size: 17px;
     position: relative;
-    top: 16%;
-    left: 19px;
+    top: 23%;
+    right: 55px;
 }
 .abc12 {
     background-color:  rgb(50,54,80);
@@ -109,7 +110,7 @@
     font-size: 17px;
     position: relative;
     top: 16%;
-    left: 90px;
+    left: 135px;
 
 }
 #abc1 {
@@ -141,4 +142,35 @@
     position: relative;
     right: 150px;
     
+}
+.abc49 {
+    color: white;
+    font-weight: bold;
+}
+#abc53 {
+    color: black;
+    display: none;
+
+}
+#abc51 {
+    display: none;
+}
+#abc52 {
+    color: white;
+}
+.abc55 {
+    position: relative ;
+    left: 15px;
+    top: 5px;
+    
+}
+#abc57 {
+    color: black;
+    display: none;
+}
+.abc58 {
+    color: black;
+}
+.abc99 {
+    z-index: 1;
 }
