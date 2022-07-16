@@ -75,7 +75,7 @@ $(document).ready(function(){
 
   })
 $("#abc10").click(function(){
-  $("#abc9").slideToggle()
+  $("#abc9").slideDown()
   $("#abc9").show()
 
 })
