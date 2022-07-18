@@ -79,6 +79,20 @@ $("#abc10").click(function(){
   $("#abc9").show()
 
 })
+$("#abc6").click(function(){
+  $("#formabc").show()
+  $("#formabc2").hide()
+  $("#abc").hide()
+
+})
+$("#abc7").click(function(){
+  $("#formabc2").show()
+  $("#formabc3").hide()
+  $("#abc").show()
+  $("#abc1").hide()
+  $("#abc2").hide()
+  $("#abc9").hide()
+})
 
 
 });
