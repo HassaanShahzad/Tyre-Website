@@ -151,9 +151,7 @@ margin-top: 10px;
     
     
 }
-.abc57 {
-    background-color: black;
-}
+
 .abc21 {
    
    
@@ -420,7 +418,8 @@ border-radius: 5px;
     font-size: 20px;
     text-align: center;
     margin-left: 50px;
-    width: 15%;
+    margin-bottom: 10px;
+    
 }
 
 #firstname-error {
@@ -455,6 +454,9 @@ margin-top: 5px;
 .ab21 {
 
 }
+.abc6 {
+color: rgb(66,149,243);
+}
 
 
  
@@ -473,7 +475,13 @@ margin-top: 5px;
         display: none;
     }
    
-
+    .abc57 {
+        background-color: black;
+    }
+    .ab10 {
+        color: rgb(34,37,41) !important;
+        
+    }
     .abc69 {
         display: block;
     }
@@ -512,9 +520,11 @@ margin-top: 5px;
 .abc6 {
     
     color: white;
+    
 }
 .ab10 {
-    color: bla;
+ 
+   
 }
 .abc13 {
 color: white;
