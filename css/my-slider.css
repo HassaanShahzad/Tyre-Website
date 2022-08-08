@@ -39,6 +39,7 @@
     -moz-background-clip: padding;
     background-clip: padding-box;
     height: 200px;
+    margin-left: 15px;
   
   }
 }
