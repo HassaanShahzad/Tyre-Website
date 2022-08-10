@@ -61,6 +61,7 @@ body {
 .abc3 {
     margin-top: 10px;
     font-size:  17px ;
+    
 
 }
 .abc4 {
@@ -408,6 +409,7 @@ border-radius: 5px;
 .abc83 {
     border-top: 1px solid gray;
 }
+
 .abc79 {
    font-style: italic;
    font-weight: bolder;
@@ -469,14 +471,40 @@ color: rgb(66,149,243);
         margin-left: 0%;
      }
   }
+  .abc91 {
+    width: 100%;
+    border: 0px;
+    background-color: white;
+  }
+  .abc90 {
+    margin-top: 20px;
+    font-style: italic;
+    font-weight: 500;
+    text-shadow:  1px 1px black;
+  }
   
 @media (min-width: 320px) and (max-width: 400px) {
     .abc70  {
         display: none;
     }
+    .abc90 {
+        margin-top: 0px;
+        font-style: italic;
+        color: black;
+        font-weight: 500;
+        text-shadow:  1px 1px black;
+      }
+    .abc91 {
+        width: 50%;
+        border: 0px;
+        background-color: white;
+      }
+    .a2 {
+        color: black;
+    }
    
     .abc57 {
-        background-color: black;
+    
     }
     .ab10 {
         color: rgb(34,37,41) !important;
@@ -519,7 +547,7 @@ color: rgb(66,149,243);
 
 .abc6 {
     
-    color: white;
+    color: black;
     
 }
 .ab10 {
@@ -527,10 +555,10 @@ color: rgb(66,149,243);
    
 }
 .abc13 {
-color: white;
+color: black;
 }
 .abc7 {
-color: white;
+color: black;
 }
 .abc68 {
     width: 50%;
